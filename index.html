@@ -5,14 +5,54 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+
+    h1 {
+      text-align: center;
+      font-size: 75px;
+      text-decoration: underline;
+    }
+
+    img {
+      height: 585px;
+      width: 585px;
+      margin-left: 17px;
+    }
+
+    .uList {
+      display: inline-flex;
+      justify-content: center;
+      list-style-type: none;
+      align-items: center;
+    }
+
+    .list {
+      list-style-type: none;
+      text-align: center;
+      font-size: x-large;
+    }
+
+    .list li {
+      margin-top: 10px;
+    }
+
+
+  </style>
+
 </head>
 <body>
   <h1>Odin Recipes</h1>
 
-  <ul>
-    <li><a href="recipes/tea.html">Grapefruit Green Tea</a></li>
-    <li><a href="recipes/cookies.html">Raspberry Strawberry Cookies</a></li>
-    <li><a href="recipes/popcorn.html">Strawberry Popcorn</a></li>
+  <ul class="uList">
+    <li><img src="recipes/recipe-images/grapefruit-tea.jpg" alt="Grapefruit Tea"></li>
+    <li><img src="recipes/recipe-images/cookies.jpg" alt="Raspberry Strawberry Cookies"></li>
+    <li><img src="recipes/recipe-images/Strawberry-Popcorn.jpg" alt="Strawberry Popcorn"></li>
+  </ul>
+
+  <ul class="list">
+    <li class="list-item"><a href="recipes/tea.html">Grapefruit Green Tea</a></li>
+    <li class="list-item"><a href="recipes/cookies.html">Raspberry Strawberry Cookies</a></li>
+    <li class="list-item"><a href="recipes/popcorn.html">Strawberry Popcorn</a></li>
   </ul>
 
 

@@ -1,0 +1,40 @@
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 40px;
+}
+
+.picture.recipe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 37%;
+}
+
+p {
+  text-align: center;
+  font-size: x-large;
+}
+
+.subheader.recipe {
+  text-align: center;
+  font-size: 27px;
+}
+
+.u-list {
+  font-size: x-large;
+  text-align: center;
+  list-style-type: none;
+  text-align: center;
+}
+
+.o-list {
+  font-size: x-large;
+  text-align: center;
+  list-style-position: inside;
+  text-align: center;
+}
